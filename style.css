@@ -1,0 +1,817 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.header{
+    min-height: 895px;
+    background-image: url(image/icons.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 175px;
+
+}
+.contaniar h1{
+    /* Be aware, Manage well. */
+
+position: absolute;
+width: 440px;
+height: 148px;
+left: 275px;
+top: 260px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 74px;
+
+color: #01996D;
+}
+.contaniar p{
+    /* Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress. */
+
+position: absolute;
+width: 420px;
+height: 123px;
+left: 275px;
+top: 438px;
+
+/* Body 1 */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+
+
+}
+.contaniar button{
+    /* btn-primary */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+
+position: absolute;
+width: 227px;
+height: 65px;
+left: 275px;
+top: 600px;
+
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+padding: 20px 40px;
+/* 13:20:13:20 */
+
+width: 170px;
+height: 60px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+text-align: center;
+white-space: nowrap;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.contaniar button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato';
+}
+.top{
+    position: absolute;
+width: 1920px;
+height: 85px;
+left: 0px;
+top: -6px;
+}
+.top hr{
+    position: absolute;
+    width: 1920px;
+    height: 85px;
+    left: 0px;
+    top: -6px;
+    
+    background: #ffffff;
+}
+.top divid{
+    position: absolute;
+left: 100%;
+right: -100%;
+top: 1.67%;
+bottom: 98.33%;
+
+border: 1px solid #aaaaaa;
+transform: rotate(180deg);
+}
+.nav{
+    position: absolute;
+width: 557px;
+height: 24px;
+left: 527px;
+top: 30px;
+}
+.nav h1{
+    position: absolute;
+left: 7.45%;
+right: 67.55%;
+top: -10%;
+bottom: 98.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #292929;
+
+}
+.nav h2{
+    position: absolute;
+left: 40.2%;
+right: 59.53%;
+top: -26%;
+bottom: 98.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #292929;
+}
+.nav h3{
+    position: absolute;
+left: 71.17%;
+right: 50.47%;
+top: -44%;
+bottom: 98.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #292929;
+}
+.nav h4{
+    position: absolute;
+left: 105.28%;
+right: 43.54%;
+top: -75%;
+bottom: 98.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #292929;
+}
+svg{
+    position: absolute;
+left: 14.32%;
+right: 81.53%;
+top: 45%;
+bottom: 98.95%;
+
+background: #01996D;
+}
+.nav button{
+    position: absolute;
+width: 277px;
+height: 510px;
+left: 900px;
+top: -10px;
+/* 13:20:13:20 */
+
+width: -5px;
+height: 55px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 20;
+font-size: 20px;
+line-height: 10px;
+/* identical to box height, or 125% */
+text-align: center;
+background-color: #01996D;
+color: #FFFFFF;
+
+border-radius: 6px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+border: none;
+
+}
+.nav a{
+    /* Sign in */
+text-decoration: none;
+position: absolute;
+left: 141.2%;
+right: 30.73%;
+top: 40%;
+bottom: 98.94%;
+white-space: nowrap;
+font-family: 'Lato';
+font-style: normal;
+font-weight: -400px;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+}
+
+.footer{
+    /* Group 19 */
+
+position: absolute;
+width: 1920px;
+height: 654px;
+left: 0px;
+top: 4445px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 1920px;
+height: 654px;
+left: 0px;
+top: 4445px;
+
+background: #245852;
+
+
+}
+.footer .logo{
+    margin-bottom: 60px;
+    /* Alivio */
+
+position: absolute;
+left: 14.32%;
+right: 80.05%;
+top: 15.04%;
+bottom: 9.88%;
+
+}
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    padding-left: 14.32%;
+    margin-top: 250px;
+}
+.footer ul li a:hover{
+    opacity: 0.8;
+    color: rgb(39, 255, 183);
+}
+.footer ul li{ 
+    margin-bottom: -250px;
+}
+.footer ul li:last-child{ 
+    margin-bottom: 0;
+}
+
+.two{
+    position: absolute;
+    width: 1413px;
+    height: 1386px;
+    left: 275px;
+    top: 1150px;
+}
+.howit h1{
+        /* How it works */
+
+    position: absolute;
+    width: 141px;
+    height: 38px;
+    left: -60px;
+    top: -40px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    /* identical to box height, or 38px */
+
+    color: #424242;
+}
+.howit h2{
+    /* Understand & Release the stress in 3 steps */
+
+position: absolute;
+width: 584px;
+height: 158px;
+left: -63px;
+top: -40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+color: #01996D;
+}
+.howit h3{
+    /* Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress. */
+
+position: absolute;
+width: 571px;
+height: 469px;
+left: 830px;
+top: -3px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #424242;
+
+
+}
+.bloc1 h4{
+    /* 01 */
+
+    position: absolute;
+    width: 157px;
+    height: 225px;
+    left: -70px;
+    top: -30px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    /* identical to box height, or 225px */
+    text-align: center;
+
+    color: rgba(1, 153, 109, 0.2);
+}
+.bloc1 h5{
+    /* Group 13 */
+
+position: absolute;
+width: 181px;
+height: 45px;
+left: 15px;
+top: 255px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+text-align: center;
+
+color: #000000;
+}
+.pers1 img{
+    /* Rectangle 30 */
+
+position: absolute;
+width: 390px;
+height: 492px;
+left: -73px;
+top: 620px;
+
+border-radius: 12px;
+
+}
+.pers1 h6{
+    /* Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal! */
+
+position: absolute;
+width: 342px;
+height: 150px;
+left: -73px;
+top: 360px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #424242;
+}
+.bloc2 h1{
+    /* 02 */
+
+position: absolute;
+width: 176px;
+height: 225px;
+left: 480px;
+top: 360px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 150%;
+/* identical to box height, or 225px */
+text-align: center;
+
+color: rgba(1, 153, 109, 0.2);
+}
+.bloc2 h2{
+    /* Write & Understand */
+
+position: absolute;
+left: 39.4%;
+right: 40%;
+top: 41.39%;
+bottom: 63.48%;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+text-align: center;
+white-space: nowrap;
+color: #000000;
+}
+.pers2 img{
+    /* Rectangle 30 */
+
+position: absolute;
+width: 390px;
+height: 492px;
+left: 470px;
+top: 843px;
+border-radius: 12px;
+
+}
+.pers2 h3{
+    /* Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress! */
+
+position: absolute;
+width: 392px;
+height: 90px;
+left: 475px;
+top: 677px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #424242;
+
+}
+.bloc3 h1{
+    /* 03 */
+
+position: absolute;
+width: 175px;
+height: 225px;
+left: 1100px;
+top: 109px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 150%;
+/* identical to box height, or 225px */
+text-align: center;
+
+color: rgba(1, 153, 109, 0.2);
+}
+.bloc3 h2{
+    /* Alivio! */
+
+position: absolute;
+left: 78.77%;
+right: 9.52%;
+top: 23.06%;
+bottom: 68.05%;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+/* identical to box height, or 45px */
+text-align: center;
+
+color: #000000;
+}
+.pers3 img{
+    /* Rectangle 31 */
+
+position: absolute;
+width: 390px;
+height: 492px;
+left: 1010px;
+top: 580px;
+
+background: #C4C4C4;
+border-radius: 12px;
+
+}
+.pers3 h3{
+    /* Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today! */
+
+position: absolute;
+width: 389px;
+height: 90px;
+left: 1010px;
+top: 435px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #424242;
+
+
+}
+.three{
+    position: absolute;
+width: 1920px;
+height: 922px;
+left: -5px;
+top: 2591px;
+position: absolute;
+width: 1920px;
+height: 922px;
+left: -5px;
+top: 2531px;
+
+background: #245852;
+}
+.containertri img{
+    
+position: absolute;
+width: 895.84px;
+height: 516.11px;
+left: 913px;
+top: 220px;
+}
+.headl h1{
+    /* Let's hear about Kayla's success story */
+
+position: absolute;
+width: 580px;
+height: 158px;
+left: 172px;
+top: 251px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+color: #FFFFFF;
+
+
+}
+.headl h2{
+    /* See how well Alivio works in a real customer’s life. */
+
+position: absolute;
+width: 550px;
+height: 39px;
+left: 172px;
+top: 452px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+/* or 39px */
+
+color: #FFFFFF;
+}
+.containertri button{
+    /* btn-primary */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+
+position: absolute;
+width: 240px;
+height: 65px;
+left: 170px;
+top: 589px;
+
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+}
+.containertri button a{
+    width: 140px;
+height: 25px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+color: #FFFFFF;
+text-decoration: none;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.chet{
+    position: absolute;
+width: 1370px;
+height: 648px;
+left: 275px;
+top: 3629px;
+}
+.gr32 h1{
+    /* Our product */
+
+position: absolute;
+width: 136px;
+height: 39px;
+left: 901px;
+top: -50px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+/* or 39px */
+
+color: #424242;
+
+
+}
+.gr32 h2{
+    /* You tell us your stress, We make your diary */
+
+position: absolute;
+width: 584px;
+height: 158px;
+left: 901px;
+top: -20px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+color: #01996D;
+
+
+}
+.containerchet h3{
+    /* Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress. */
+
+position: absolute;
+width: 530px;
+height: 81px;
+left: 910px;
+top: 189px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+
+
+}
+.containerchet button{
+    /* btn-primary */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 50px;
+gap: 30px;
+
+position: absolute;
+width: 227px;
+height: 65px;
+left: 900px;
+top: 350px;
+
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+}
+.containerchet button a{
+    /* 13:20:13:20 */
+
+width: 127px;
+height: 25px;
+text-decoration: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.containerchet .girl{
+    position: absolute;
+width: 638.69px;
+height: 573.26px;
+left: 20.68px;
+top: -50px;
+border-radius: 10px;
+}
+.containerchet .inf{
+    /* Card */
+
+position: absolute;
+width: 320px;
+height: 319.9px;
+left: -48px;
+top: 300.1px;
+border-radius: 10px;
+filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+
+
+}
